@@ -1,6 +1,6 @@
-baseURL = "https://saasify-demo.chaoming.li/"
+baseURL = "https://musalabs.io/"
 languageCode = "en-us"
-title = "Saasify"
+title = "Musa Labs"
 
 # Theme Config
 theme = "../.."
@@ -26,8 +26,8 @@ paginatePath = "page"
 
 [params]
   description = ""
-  author = "Chaoming Li"
-  logo = "/images/logo.svg"
+  author = "Luke Milby"
+  logo = "/images/logo.png"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
   
@@ -48,12 +48,7 @@ paginatePath = "page"
   
   # Social Media Links
   [params.social]
-    linkedin = "https://linkedin.com/in/chaomingli"
-    twitter = "https://twitter.com/lichaoming"
-    youtube = "https://youtube.com/@chaomingli"
-    facebook = "https://facebook.com/lichaoming"
-    instagram = "https://instagram.com/lichaoming"
-    github = "https://github.com/chaoming"
+    github = "https://github.com/Musa-Labs"
   
   # Footer Configuration
   [params.footer]
@@ -68,7 +63,7 @@ paginatePath = "page"
     
     # Logo configuration
     [params.header.logo]
-      src = "/images/logo.svg"
+      src = "/images/logo.png"
     
     # Menu configuration
     [params.header.menu]

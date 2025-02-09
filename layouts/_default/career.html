@@ -10,6 +10,54 @@
         </div>
     </div>
 
+    <!-- Open Positions Section -->
+    {{ with .Params.positions_section }}
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gray-50 rounded-xl shadow-sm p-8 lg:p-12">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">{{ .title }}</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Join our team and help shape the future of SaaS. We're always looking for talented individuals who share our passion for innovation.</p>
+                </div>
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    {{ range where $.Site.RegularPages "Section" "jobs" }}
+                    <a href="{{ .RelPermalink }}" class="group">
+                        <div class="h-full bg-white rounded-lg shadow-sm group-hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 group-hover:border-primary-100">
+                            <div class="p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">{{ .Title }}</h3>
+                                    <span class="flex items-center justify-center w-8 h-8 rounded-full bg-primary-50 text-primary-600 group-hover:bg-primary-100 transition-colors duration-200">
+                                        →
+                                    </span>
+                                </div>
+                                <div class="flex items-center text-gray-600 text-sm mb-4 space-x-4">
+                                    {{ with .Params.location }}
+                                    <span class="flex items-center">
+                                        <span class="mr-2">📍</span>
+                                        {{ . }}
+                                    </span>
+                                    {{ end }}
+                                    {{ with .Params.type }}
+                                    <span class="flex items-center">
+                                        <span class="mr-2">💼</span>
+                                        {{ . }}
+                                    </span>
+                                    {{ end }}
+                                </div>
+                                <p class="text-gray-600 mb-4 line-clamp-2">{{ .Description | default .Summary }}</p>
+                                <div class="text-primary-600 font-medium group-hover:text-primary-700 transition-colors duration-200">
+                                    {{ $.Params.positions_section.view_position_text }} →
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
     <!-- Team Culture Section -->
     {{ with .Params.culture_section }}
     <div class="bg-white py-16">
@@ -64,52 +112,5 @@
     </div>
     {{ end }}
 
-    <!-- Open Positions Section -->
-    {{ with .Params.positions_section }}
-    <div class="bg-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gray-50 rounded-xl shadow-sm p-8 lg:p-12">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-900 mb-4">{{ .title }}</h2>
-                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Join our team and help shape the future of SaaS. We're always looking for talented individuals who share our passion for innovation.</p>
-                </div>
-                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                    {{ range where $.Site.RegularPages "Section" "jobs" }}
-                    <a href="{{ .RelPermalink }}" class="group">
-                        <div class="h-full bg-white rounded-lg shadow-sm group-hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 group-hover:border-primary-100">
-                            <div class="p-6">
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">{{ .Title }}</h3>
-                                    <span class="flex items-center justify-center w-8 h-8 rounded-full bg-primary-50 text-primary-600 group-hover:bg-primary-100 transition-colors duration-200">
-                                        →
-                                    </span>
-                                </div>
-                                <div class="flex items-center text-gray-600 text-sm mb-4 space-x-4">
-                                    {{ with .Params.location }}
-                                    <span class="flex items-center">
-                                        <span class="mr-2">📍</span>
-                                        {{ . }}
-                                    </span>
-                                    {{ end }}
-                                    {{ with .Params.type }}
-                                    <span class="flex items-center">
-                                        <span class="mr-2">💼</span>
-                                        {{ . }}
-                                    </span>
-                                    {{ end }}
-                                </div>
-                                <p class="text-gray-600 mb-4 line-clamp-2">{{ .Description | default .Summary }}</p>
-                                <div class="text-primary-600 font-medium group-hover:text-primary-700 transition-colors duration-200">
-                                    {{ $.Params.positions_section.view_position_text }} →
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-    {{ end }}
 </div>
 {{ end }}
