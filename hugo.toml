@@ -34,10 +34,10 @@ paginatePath = "page"
   # Global CTA Configuration
   [params.cta]
     enable = true
-    title = "Ready to Build Your SaaS Website?"
+    title = "Ready to take control of your processes?"
     description = "Join companies already using our theme to create beautiful, high-performance websites."
-    gradient_from = "#2563eb"  # Indigo-600
-    gradient_to = "#7c3aed"    # Purple-600
+    gradient_from = "#50B69B"  # Indigo-600
+    gradient_to = "#2B589F"    # Purple-600
     gradient_angle = 30
     [params.cta.primary_button]
       text = "Get Started Free"
