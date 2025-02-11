@@ -171,9 +171,9 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Hands Free Web", url = "/services/performance/" },
-        { name = "N8N System Integration", url = "/services/design-system/" },
-        { name = "Process Automation", url = "/services/developer-experience/" }
+        { name = "Web Presence", url = "/services/web-presence/" },
+        { name = "Growth Automation", url = "/services/growth-automation/" },
+        { name = "Advanced Automation", url = "/services/advanced-automation/" }
       ]
   [[menu.main]]
     name = "Pricing"

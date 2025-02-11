@@ -49,7 +49,7 @@ client_logos:
     badgeColor="#2563eb"
     image="/images/feature-website.svg"
     buttonText="Learn about Web Presence"
-    buttonLink="/features/web-presence/"
+    buttonLink="/services/web-presence/"
     features="Custom Website Creation,Reliable Hosting,Domain & Email Management,24/7 Support"
     imagePosition="right"
 >}}
@@ -61,7 +61,7 @@ client_logos:
     badgeColor="#7c3aed"
     image="/images/feature-automation.svg"
     buttonText="Explore Automation"
-    buttonLink="/features/automation/"
+    buttonLink="/services/growth-automation/"
     features="Enhanced Website Features,N8N Integrations,Process Automation Consultation,Dedicated Support"
     imagePosition="left"
 >}}
@@ -73,7 +73,7 @@ client_logos:
     badgeColor="#16a34a"
     image="/images/feature-advanced-automation.svg"
     buttonText="Discover Advanced Automation"
-    buttonLink="/features/advanced-automation/"
+    buttonLink="/services/advanced-automation/"
     features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
     imagePosition="right"
 >}}
