@@ -19,7 +19,7 @@ features:
     description: "Regular performance review meetings focused on your automations to discuss results, identify improvements, and plan future strategies."
 demo:
   description: "Explore the power of Advanced Automation to revolutionize your business processes and achieve unparalleled efficiency."
-  image: "/images/feature-advanced-automation.svg"
+  image: "/images/advanced-automation.webp"
 ---
 
 ## Unlock Peak Efficiency with Advanced Automation

@@ -21,7 +21,7 @@ features:
     description: "Enjoy prioritized support response times, ensuring faster resolution of any issues."
 demo:
   description: "Discover how Growth Automation can transform your business operations and online presence."
-  image: "/images/feature-automation.svg"
+  image: "/images/growth-automation.webp"
 ---
 
 ## Streamline and Scale with Growth Automation

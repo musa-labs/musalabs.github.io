@@ -25,7 +25,7 @@ features:
     description: "Improve your local search visibility with our help in setting up or optimizing your Google Business Profile."
 demo:
   description: "See how our Basic Web Presence package provides a solid foundation for your online success."
-  image: "/images/feature-website.svg"
+  image: "/images/web-presence.webp"
 ---
 
 ## Your Essential Online Foundation
