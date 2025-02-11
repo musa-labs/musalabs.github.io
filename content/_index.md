@@ -27,9 +27,9 @@ client_logos:
 ---
 
 {{< hero 
-    headline="N8N Expertise"
-    sub_headline="Get access to high quality Nodes and N8N experts"
-    primary_button_text="Get Started"
+    headline="Automate & Grow Your Business Online"
+    sub_headline="Streamline your operations with custom websites and powerful process automation. Focus on your business, we handle the rest."
+    primary_button_text="View Pricing Plans"
     primary_button_url="#"
     hero_image="/images/hero-dashboard.svg"
     gradient-from="#dbeafe"
@@ -37,54 +37,52 @@ client_logos:
     gradient-angle="180"
 >}}
 
-<!-- {{< client-logos animate="true" >}} -->
-
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="Comprehensive Solutions for Online Success"
+    description="We provide everything you need to establish and optimize your online presence, from websites to automation."
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-    badge="Performance"
+    title="Essential Web Presence"
+    description="Establish your online foundation with a professional website, domain and email. Perfect for businesses getting started online."
+    badge="Web Presence"
     badgeColor="#2563eb"
-    image="/images/feature-1.svg"
-    buttonText="Learn More"
-    buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    image="/images/feature-website.svg"
+    buttonText="Learn about Web Presence"
+    buttonLink="/features/web-presence/"
+    features="Custom Website Creation,Reliable Hosting,Domain & Email Management,24/7 Support"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Beautiful Design System"
-    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
-    badge="Design"
+    title="Growth through Automation"
+    description="Streamline your workflows and boost efficiency with website enhancements and intelligent process automation using N8N."
+    badge="Automation"
     badgeColor="#7c3aed"
-    image="/images/feature-2.svg"
-    buttonText="Learn More"
-    buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    image="/images/feature-automation.svg"
+    buttonText="Explore Automation"
+    buttonLink="/features/automation/"
+    features="Enhanced Website Features,N8N Integrations,Process Automation Consultation,Dedicated Support"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Developer Experience"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
+    title="Advanced Automation Expertise"
+    description="Unlock sophisticated automation for complex processes with dedicated developer support and custom API integrations to optimize your workflows."
+    badge="Advanced Automation"
     badgeColor="#16a34a"
-    image="/images/feature-3.svg"
-    buttonText="Learn More"
-    buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
+    image="/images/feature-advanced-automation.svg"
+    buttonText="Discover Advanced Automation"
+    buttonLink="/features/advanced-automation/"
+    features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
 
 {{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
+    title="Trusted by Businesses of All Sizes"
+    description="See how businesses are streamlining operations and growing online with our solutions."
     animate="true"
     background-color="#f1f5f9"
 >}}

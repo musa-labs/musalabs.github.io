@@ -6,19 +6,23 @@ layout: "pricing"
 
 {{< pricing-table-1 >}}
 {
-    "title": "Designed for business teams like yours",
-    "description": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
+    "title": "Choose the perfect plan to automate your business and streamline online operations",
+    "description": "Focus on your core business, and let us handle your website and process automation needs.",
     "plans": [
         {
-            "name": "Starter",
-            "price": "29",
-            "description": "Best option for personal use & for your next project.",
+            "name": "Basic Web Presence",
+            "price": "150",
+            "description": "Essential online foundation with website, domain, and email management.",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 1 developer",
-                "Premium support: 6 months",
-                "Free updates: 6 months"
+                "Custom Website Creation",
+                "Reliable Website Hosting",
+                "Domain Name Management",
+                "Professional Email Service",
+                "Unlimited Website Edits",
+                "24/7 Website Support",
+                "Lifetime Updates & Maintenance",
+                "Basic Website Analytics",
+                "Google Business Profile Assistance"
             ],
             "button": {
                 "text": "Get started",
@@ -26,16 +30,19 @@ layout: "pricing"
             }
         },
         {
-            "name": "Company",
-            "price": "99",
-            "description": "Relevant for multiple users, extended & premium support.",
+            "name": "Growth Automation",
+            "price": "300",
+            "description": "Streamline operations and improve efficiency with website enhancements and process automation.",
             "featured": true,
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 10 developers",
-                "Premium support: 24 months",
-                "Free updates: 24 months"
+                "**All Basic Web Presence Features**",
+                "Enhanced Website Design & Features",
+                "Advanced Website Analytics & Reporting",
+                "Social Media Integration",
+                "**N8N Integration Development (Up to 2 Basic Automations)**",
+                "Process Automation Consultation",
+                "Dedicated Account Manager",
+                "Priority Support"
             ],
             "button": {
                 "text": "Get started",
@@ -43,25 +50,26 @@ layout: "pricing"
             }
         },
         {
-            "name": "Enterprise",
-            "price": "499",
-            "description": "Best for large scale uses and extended redistribution rights.",
+            "name": "Advanced Automation",
+            "price": "550",
+            "description": "For complex business processes requiring sophisticated automation and dedicated technical expertise to optimize workflows.",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 100+ developers",
-                "Premium support: 36 months",
-                "Free updates: 36 months"
+                "**All Growth Automation Features**",
+                "Custom Reporting & Analytics Dashboard",
+                "**Advanced N8N Integration Development (Up to 5 Complex Automations)**",
+                "**Dedicated N8N Developer Support**",
+                "**Custom API Integrations**",
+                "**Workflow Optimization & Refinement**",
+                "Monthly Performance Review Meetings (Automation Focused)"
             ],
             "button": {
-                "text": "Get started",
+                "text": "Contact us",
                 "url": "#"
             }
         }
     ]
 }
 {{< /pricing-table-1 >}}
-
 <div class="mt-16"></div>
 
 {{< pricing-table-2 >}}
