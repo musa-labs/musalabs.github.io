@@ -195,16 +195,16 @@ paginatePath = "page"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Performance"
-    url = "/features/performance/"
+    name = "Web Presence"
+    url = "/services/web-presence/"
     weight = 1
   [[menu.footer_column_1]]
     name = "Design System"
-    url = "/features/design-system/"
+    url = "/services/growth-automation/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Developer Experience"
-    url = "/features/developer-experience/"
+    name = "Personal Consultation"
+    url = "/services/personal-consultation/"
     weight = 3
 
   # Footer Column 2 Menu

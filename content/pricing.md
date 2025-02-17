@@ -4,14 +4,15 @@ description: "Choose the perfect plan for your needs"
 layout: "pricing"
 ---
 
+
 {{< pricing-table-1 >}}
 {
     "title": "Choose the perfect plan to automate your business and streamline online operations",
-    "description": "Focus on your core business, and let us handle your website and process automation needs.",
+    "description": "Focus on your core business with our web presence or process automation solutions.",
     "plans": [
         {
             "name": "Basic Web Presence",
-            "price": "150",
+            "price": "125",
             "description": "Essential online foundation with website, domain, and email management.",
             "features": [
                 "Custom Website Creation",
@@ -19,52 +20,52 @@ layout: "pricing"
                 "Domain Name Management",
                 "Professional Email Service",
                 "Unlimited Website Edits",
-                "24/7 Website Support",
                 "Lifetime Updates & Maintenance",
                 "Basic Website Analytics",
                 "Google Business Profile Assistance"
             ],
             "button": {
-                "text": "Get started",
-                "url": "#"
+                "text": "Setup a Call",
+                "url": "https://cal.com/musalabs/musa-labs-web-presence"
             }
         },
         {
             "name": "Growth Automation",
-            "price": "300",
-            "description": "Streamline operations and improve efficiency with website enhancements and process automation.",
+            "price": "200",
+            "description": "Transform your business operations with smart process automation solutions.",
             "featured": true,
             "features": [
-                "**All Basic Web Presence Features**",
-                "Enhanced Website Design & Features",
-                "Advanced Website Analytics & Reporting",
-                "Social Media Integration",
-                "**N8N Integration Development (Up to 2 Basic Automations)**",
-                "Process Automation Consultation",
-                "Dedicated Account Manager",
-                "Priority Support"
+                "Business Process Analysis",
+                "Custom Automation Solutions",
+                "Team Workflow Optimization",
+                "Document Process Management",
+                "Standard Operating Procedures",
+                "Process Performance Metrics",
+                "Custom Report Generation",
+                "Implementation Support"
             ],
             "button": {
-                "text": "Get started",
-                "url": "#"
+                "text": "Setup a Call",
+                "url": "https://cal.com/musalabs/musa-labs-growth-automation"
             }
         },
         {
-            "name": "Advanced Automation",
-            "price": "550",
-            "description": "For complex business processes requiring sophisticated automation and dedicated technical expertise to optimize workflows.",
+            "name": "Personal Consultation",
+            "price": "350",
+            "description": "Dedicated one-on-one strategic consulting to transform your business operations and digital presence.",
             "features": [
-                "**All Growth Automation Features**",
-                "Custom Reporting & Analytics Dashboard",
-                "**Advanced N8N Integration Development (Up to 5 Complex Automations)**",
-                "**Dedicated N8N Developer Support**",
-                "**Custom API Integrations**",
-                "**Workflow Optimization & Refinement**",
-                "Monthly Performance Review Meetings (Automation Focused)"
+                "Initial Business Assessment",
+                "Custom Digital Strategy Development",
+                "Weekly Progress Meetings",
+                "Priority Support Access",
+                "Detailed Implementation Roadmap",
+                "ROI Analysis and Reporting",
+                "Technology Stack Optimization",
+                "Training and Knowledge Transfer"
             ],
             "button": {
-                "text": "Contact us",
-                "url": "#"
+                "text": "Setup a Call",
+                "url": "https://cal.com/musalabs/30min"
             }
         }
     ]

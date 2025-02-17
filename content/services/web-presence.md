@@ -13,12 +13,6 @@ features:
     description: "We manage your domain registration and renewals, keeping your online identity secure and accessible."
   - title: "Professional Email Service"
     description: "Communicate professionally with branded email addresses and reliable email service setup and management."
-  - title: "Unlimited Website Edits"
-    description: "Keep your website content fresh and up-to-date with unlimited edits and content updates handled by our team."
-  - title: "24/7 Website Support"
-    description: "Access round-the-clock support for any website issues or questions. We're always here to help."
-  - title: "Lifetime Updates & Maintenance"
-    description: "Benefit from ongoing security updates, software maintenance, and algorithm adjustments to keep your site performing optimally."
   - title: "Basic Website Analytics"
     description: "Understand your website's performance with basic analytics reports to track visitor behavior and key metrics."
   - title: "Google Business Profile Assistance"
@@ -30,19 +24,19 @@ demo:
 
 ## Your Essential Online Foundation
 
-The Basic Web Presence plan is designed for small businesses and startups that need a fundamental online presence without the technical hassle. We provide all the core elements to get you online quickly and professionally, allowing you to focus on your business.
+The Basic Web Presence plan is designed for small businesses and startups that need a fundamental online presence without the technical hassle. 
+We provide all the core elements to get you online quickly and professionally, allowing you to focus on your business.
 
 ### Key Benefits of Basic Web Presence
 
 - **Professional Online Identity**: Establish credibility with a custom-designed website and branded email addresses.
 - **Hassle-Free Management**: We handle all the technical aspects of website hosting, domain, and email, so you don't have to.
-- **Always-On Support**: Get peace of mind with 24/7 support and ongoing maintenance to ensure your website is always running smoothly.
 - **Cost-Effective Solution**:  A predictable monthly cost covers all your essential online needs, eliminating large upfront expenses.
 
 ### Core Features Included
 
 #### Custom Website Creation
-- Tailored website design to reflect your brand and business identity.
+- Tailored website design to reflect your brand and business identity
 - Mobile-responsive design to reach customers on any device.
 - Initial content setup to get your website populated quickly.
 
@@ -53,7 +47,7 @@ The Basic Web Presence plan is designed for small businesses and startups that n
 
 #### Hosting & Support
 - Reliable and secure website hosting for optimal uptime.
-- 24/7 technical support to address any website issues promptly.
+- Guidance on next steps for your digital presence.
 - Continuous monitoring and maintenance to ensure peak performance.
 
 #### Updates & Analytics

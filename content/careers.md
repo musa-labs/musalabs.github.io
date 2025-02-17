@@ -1,6 +1,6 @@
 ---
 title: "Join Our Team"
-description: "Be part of a team that's revolutionizing the SaaS industry with innovative solutions and a people-first culture."
+description: "Be part of a team that's revolutionizing process automation with innovative solutions and a people-first culture."
 layout: "career"
 
 culture_section:
@@ -37,6 +37,6 @@ positions_section:
   view_position_text: "View Position"
 ---
 
-At Saasify, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.
+At Musa Labs, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.
 
 We're looking for passionate individuals who want to make a difference and grow with us. If you're excited about building the future of SaaS and working with cutting-edge technology, we'd love to hear from you.

@@ -6,12 +6,12 @@ description: "Learn about our mission, leadership team, and the investors backin
 
 {{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32" >}}
     <div class="text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">Building the Future of SaaS</h1>
-        <p class="text-xl text-gray-600 mb-16">We're on a mission to revolutionize how businesses operate in the digital age</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Building the Future of Process Automation</h1>
+        <p class="text-xl text-gray-600 mb-16">We're on a mission to revolutionize how businesses operate in the age of AI</p>
         <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8">
             <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
             <p class="text-xl text-gray-600">
-                We're dedicated to empowering businesses with innovative SaaS solutions that drive growth and efficiency. Our platform combines cutting-edge technology with intuitive design to solve complex business challenges.
+                We empower businesses to thrive in the digital age by delivering expert web solutions and innovative process automation. Through customized strategies and hands-on support, we help organizations reduce complexity, increase efficiency, and achieve sustainable growth.
             </p>
         </div>
     </div>
@@ -56,29 +56,29 @@ description: "Learn about our mission, leadership team, and the investors backin
 {{< /section-container >}}
 
 {{< section-container class="py-20 bg-gray-50" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Company Values</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{< value-card 
-                title="Innovation First"
-                icon="lightbulb"
-                description="We constantly push boundaries and embrace new technologies to solve complex challenges."
-            >}}
-            {{< value-card 
-                title="Customer Success"
-                icon="users"
-                description="Our customers' success is our success. We're committed to delivering exceptional value."
-            >}}
-            {{< value-card 
-                title="Transparency"
-                icon="eye"
-                description="We believe in open communication and building trust through transparency."
-            >}}
-        </div>
+<div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Company Values</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {{< value-card 
+            title="Lean Automation"
+            icon="robot"
+            description="We leverage automation and AI to eliminate waste and streamline complex business processes."
+        >}}
+        {{< value-card 
+            title="Process Excellence"
+            icon="workflow"
+            description="We systematically identify and eliminate waste through proven lean methodologies and continuous improvement."
+        >}}
+        {{< value-card 
+            title="Responsible AI"
+            icon="shield"
+            description="We prioritize safe and ethical AI implementation, ensuring transparency and human-centered automation."
+        >}}
     </div>
+</div>
 {{< /section-container >}}
 
-{{< section-container class="py-20" >}}
+<!-- {{< section-container class="py-20" >}}
     <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {{< stat number="2015" label="Founded" >}}
@@ -87,4 +87,4 @@ description: "Learn about our mission, leadership team, and the investors backin
             {{< stat number="50M+" label="Annual Revenue" >}}
         </div>
     </div>
-{{< /section-container >}}
+{{< /section-container >}} -->
