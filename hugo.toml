@@ -40,11 +40,8 @@ paginatePath = "page"
     gradient_to = "#2B589F"    # Purple-600
     gradient_angle = 30
     [params.cta.primary_button]
-      text = "Get Started Free"
-      url = "/get-started"
-    [params.cta.secondary_button]
-      text = "Book Demo"
-      url = "/demo"
+      text = "Book a Call"
+      url = "https://cal.com/musalabs/musa-labs-demo"
   
   # Social Media Links
   [params.social]
@@ -89,10 +86,10 @@ paginatePath = "page"
         text = "Sign in"
         url = "https://market.musalabs.io/user/login"
       
-      # Get Started button
-      [params.header.buttons.getStarted]
-        text = "Get Started"
-        url = "/get-started"
+      # # Get Started button
+      # [params.header.buttons.getStarted]
+      #   text = "Get Started"
+      #   url = "/get-started"
 
   # Blog configuration
   # Coming back to this. IDK if its really going to matter
@@ -208,10 +205,10 @@ paginatePath = "page"
     weight = 3
 
   # Footer Column 2 Menu
-  [[menu.footer_column_2]]
-    name = "Blog"
-    url = "/blog"
-    weight = 1
+  # [[menu.footer_column_2]]
+  #   name = "Blog"
+  #   url = "/blog"
+  #   weight = 1
   [[menu.footer_column_2]]
     name = "About Us"
     url = "/company"

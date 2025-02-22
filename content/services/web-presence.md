@@ -13,13 +13,12 @@ features:
     description: "We manage your domain registration and renewals, keeping your online identity secure and accessible."
   - title: "Professional Email Service"
     description: "Communicate professionally with branded email addresses and reliable email service setup and management."
-  - title: "Basic Website Analytics"
-    description: "Understand your website's performance with basic analytics reports to track visitor behavior and key metrics."
-  - title: "Google Business Profile Assistance"
-    description: "Improve your local search visibility with our help in setting up or optimizing your Google Business Profile."
-demo:
-  description: "See how our Basic Web Presence package provides a solid foundation for your online success."
-  image: "/images/web-presence.webp"
+  # - title: "Basic Website Analytics"
+  #   description: "Understand your website's performance with basic analytics reports to track visitor behavior and key metrics."
+  # - title: "Google Business Profile Assistance"
+  #   description: "Improve your local search visibility with our help in setting up or optimizing your Google Business Profile."
+# demo:
+#   description: "See how our Basic Web Presence package provides a solid foundation for your online success."
 ---
 
 ## Your Essential Online Foundation

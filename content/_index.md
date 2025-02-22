@@ -30,7 +30,7 @@ client_logos:
     headline="Automate & Grow Your Business Online"
     sub_headline="Streamline your operations with custom websites and powerful process automation. Focus on your business, we handle the rest."
     primary_button_text="View Pricing Plans"
-    primary_button_url="#"
+    primary_button_url="/pricing"
     hero_image="/images/hero-dashboard.svg"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
@@ -50,7 +50,7 @@ client_logos:
     image="/images/web-presence.webp"
     buttonText="Learn about Web Presence"
     buttonLink="/services/web-presence/"
-    features="Custom Website Creation,Reliable Hosting,Domain & Email Management,24/7 Support"
+    features="Custom Website Creation,Reliable Hosting,Domain & Email Management,Dedicated Email Support"
     imagePosition="right"
 >}}
 
@@ -62,29 +62,27 @@ client_logos:
     image="/images/growth-automation.webp"
     buttonText="Explore Automation"
     buttonLink="/services/growth-automation/"
-    features="Enhanced Website Features,N8N Integrations,Process Automation Consultation,Dedicated Support"
+    features="N8N Workflow Development,Process Automation Consultation,Dedicated Email Support"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Advanced Automation Expertise"
-    description="Unlock sophisticated automation for complex processes with dedicated developer support and custom API integrations to optimize your workflows."
-    badge="Advanced Automation"
+    title="Personal Consultation"
+    description=""
+    badge="Consulting"
     badgeColor="#16a34a"
     image="/images/advanced-automation.webp"
-    buttonText="Discover Advanced Automation"
-    buttonLink="/services/advanced-automation/"
+    buttonText="Discover Personal Consulting"
+    buttonLink="/services/personal-consultation/"
     features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
 
-{{< testimonials 
+<!-- {{< testimonials 
     title="Trusted by Businesses of All Sizes"
     description="See how businesses are streamlining operations and growing online with our solutions."
     animate="true"
     background-color="#f1f5f9"
->}}
-
-{{< cta >}}
+>}} -->

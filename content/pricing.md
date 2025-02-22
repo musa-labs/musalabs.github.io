@@ -12,7 +12,7 @@ layout: "pricing"
     "plans": [
         {
             "name": "Basic Web Presence",
-            "price": "125",
+            "price": "75",
             "description": "Essential online foundation with website, domain, and email management.",
             "features": [
                 "Custom Website Creation",
