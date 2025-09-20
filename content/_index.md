@@ -27,8 +27,8 @@ client_logos:
 ---
 
 {{< hero 
-    headline="Automate & Grow Your Business Online"
-    sub_headline="Streamline your operations with custom websites and powerful process automation. Focus on your business, we handle the rest."
+    headline="We help small businesses succeed in the face of disaster"
+    sub_headline=""
     primary_button_text="View Pricing Plans"
     primary_button_url="/pricing"
     hero_image="/images/hero-dashboard.svg"
