@@ -27,7 +27,7 @@ client_logos:
 ---
 
 {{< hero 
-    headline="We help small businesses succeed in the face of disaster"
+    headline="Succeed in the face of disaster"
     sub_headline="Our solutions help you prepare for the unexpected and thrive."
     primary_button_text="View Pricing Plans"
     primary_button_url="/pricing"

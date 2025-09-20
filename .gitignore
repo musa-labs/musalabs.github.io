@@ -27,3 +27,5 @@ static/css/
 .Trashes
 ehthumbs.db
 Thumbs.db
+.aider*
+.env
