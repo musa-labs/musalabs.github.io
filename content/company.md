@@ -1,17 +1,17 @@
 ---
 title: "About Our Company"
 layout: "company"
-description: "Learn about our mission, leadership team, and the investors backing our vision"
+description: "Learn about our mission in providing robust backup and disaster recovery solutions."
 ---
 
 {{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32" >}}
     <div class="text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">Building the Future of Process Automation</h1>
-        <p class="text-xl text-gray-600 mb-16">We're on a mission to revolutionize how businesses operate in the age of AI</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Securing Your Digital Future</h1>
+        <p class="text-xl text-gray-600 mb-16">We're on a mission to provide best-in-class backup and disaster recovery solutions.</p>
         <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8">
             <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
             <p class="text-xl text-gray-600">
-                We empower businesses to thrive in the digital age by delivering expert web solutions and innovative process automation. Through customized strategies and hands-on support, we help organizations reduce complexity, increase efficiency, and achieve sustainable growth.
+                To protect our clients' critical data with reliable, secure, and easy-to-use backup and disaster recovery solutions. We ensure business continuity by safeguarding digital assets against all threats.
             </p>
         </div>
     </div>
@@ -20,23 +20,11 @@ description: "Learn about our mission, leadership team, and the investors backin
 {{< section-container class="py-20 bg-gray-50" >}}
     <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center mb-12">Leadership Team</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="flex justify-center">
             {{< team-member 
-                name="Sarah Johnson"
+                name="Luke Milby"
                 title="Chief Executive Officer"
                 image="/images/company/exec-1.svg"
-                linkedin="#"
-            >}}
-            {{< team-member 
-                name="Michael Chen"
-                title="Chief Technology Officer"
-                image="/images/company/exec-2.svg"
-                linkedin="#"
-            >}}
-            {{< team-member 
-                name="Emily Rodriguez"
-                title="Chief Product Officer"
-                image="/images/company/exec-3.svg"
                 linkedin="#"
             >}}
         </div>
@@ -60,19 +48,19 @@ description: "Learn about our mission, leadership team, and the investors backin
     <h2 class="text-3xl font-bold text-center mb-12">Company Values</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {{< value-card 
-            title="Lean Automation"
-            icon="robot"
-            description="We leverage automation and AI to eliminate waste and streamline complex business processes."
-        >}}
-        {{< value-card 
-            title="Process Excellence"
-            icon="workflow"
-            description="We systematically identify and eliminate waste through proven lean methodologies and continuous improvement."
-        >}}
-        {{< value-card 
-            title="Responsible AI"
+            title="Reliability"
             icon="shield"
-            description="We prioritize safe and ethical AI implementation, ensuring transparency and human-centered automation."
+            description="We are committed to providing dependable backup solutions that our clients can trust."
+        >}}
+        {{< value-card 
+            title="Security"
+            icon="lock"
+            description="We prioritize the security and integrity of your data with state-of-the-art encryption and protection."
+        >}}
+        {{< value-card 
+            title="Customer Focus"
+            icon="user-group"
+            description="We build lasting relationships by understanding and addressing our clients' unique data protection needs."
         >}}
     </div>
 </div>
