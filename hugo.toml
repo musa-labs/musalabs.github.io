@@ -82,9 +82,9 @@ paginatePath = "page"
     # Button configuration
     [params.header.buttons]
       # Sign In button
-      [params.header.buttons.signIn]
-        text = "Sign in"
-        url = "https://market.musalabs.io/user/login"
+      # [params.header.buttons.signIn]
+      #   text = "Sign in"
+      #   url = "https://market.musalabs.io/user/login"
       
       # # Get Started button
       # [params.header.buttons.getStarted]
