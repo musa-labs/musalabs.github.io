@@ -38,7 +38,7 @@ client_logos:
 >}}
 
 {{< features-section 
-    title="Comprehensive Solutions for Online Success"
+    title="Services"
     description="We provide everything you need to establish and optimize your online presence, from websites to automation."
 >}}
 
