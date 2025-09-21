@@ -42,7 +42,7 @@ client_logos:
     description="We provide everything you need to establish and optimize your online presence, from websites to automation."
 >}}
 
-{{< feature
+<!-- {{< feature
     title="Essential Web Presence"
     description="Establish your online foundation with a professional website, domain and email. Perfect for businesses getting started online."
     badge="Web Presence"
@@ -52,9 +52,9 @@ client_logos:
     buttonLink="/services/web-presence/"
     features="Custom Website Creation,Reliable Hosting,Domain & Email Management,Dedicated Email Support"
     imagePosition="right"
->}}
+>}} -->
 
-{{< feature
+<!-- {{< feature
     title="Growth through Automation"
     description="Streamline your workflows and boost efficiency with website enhancements and intelligent process automation using N8N."
     badge="Automation"
@@ -64,7 +64,7 @@ client_logos:
     buttonLink="/services/growth-automation/"
     features="N8N Workflow Development,Process Automation Consultation,Dedicated Email Support"
     imagePosition="left"
->}}
+>}} -->
 
 {{< feature
     title="Backup & Recovery"
@@ -78,7 +78,7 @@ client_logos:
     imagePosition="right"
 >}}
 
-{{< feature
+<!-- {{< feature
     title="Personal Consultation"
     description=""
     badge="Consulting"
@@ -88,7 +88,7 @@ client_logos:
     buttonLink="/services/personal-consultation/"
     features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
     imagePosition="left"
->}}
+>}} -->
 
 {{< /features-section >}}
 
