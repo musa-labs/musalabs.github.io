@@ -168,9 +168,8 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Web Presence", url = "/services/web-presence/" },
-        { name = "Growth Automation", url = "/services/growth-automation/" },
-        { name = "Advanced Automation", url = "/services/advanced-automation/" }
+        { name = "Backup", url = "/services/backup/" },
+        { name = "Password Manager", url = "/services/password-manager/" }
       ]
   [[menu.main]]
     name = "Pricing"
@@ -192,17 +191,13 @@ paginatePath = "page"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Web Presence"
-    url = "/services/web-presence/"
+    name = "Backup"
+    url = "/services/backup/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/services/growth-automation/"
+    name = "Password Manager"
+    url = "/services/password-manager/"
     weight = 2
-  [[menu.footer_column_1]]
-    name = "Personal Consultation"
-    url = "/services/personal-consultation/"
-    weight = 3
 
   # Footer Column 2 Menu
   # [[menu.footer_column_2]]
