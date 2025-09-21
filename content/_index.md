@@ -68,8 +68,8 @@ client_logos:
 
 {{< feature
     title="Backup & Recovery"
-    description="Protect your critical data with reliable automated backups. Quickly recover from system failures or accidental deletions and ensure business continuity."
-    badge="Backup"
+    description="Protect your critical data with our reliable backup and recovery solutions. We ensure your business can quickly recover from data loss, system failures, or accidental deletions."
+    badge="Backup Service"
     badgeColor="#f97316"
     image="/images/feature-3.svg"
     buttonText="Learn about Backup & Recovery"
