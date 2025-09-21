@@ -67,6 +67,18 @@ client_logos:
 >}}
 
 {{< feature
+    title="Backup & Recovery"
+    description="Protect your critical data with reliable automated backups. Quickly recover from system failures or accidental deletions and ensure business continuity."
+    badge="Backup"
+    badgeColor="#f97316"
+    image="/images/feature-3.svg"
+    buttonText="Learn about Backup & Recovery"
+    buttonLink="/services/backup/"
+    features="Automated System Backups,File & Folder Recovery,Full System Restore,Secure Offsite Storage"
+    imagePosition="right"
+>}}
+
+{{< feature
     title="Personal Consultation"
     description=""
     badge="Consulting"
@@ -75,7 +87,7 @@ client_logos:
     buttonText="Discover Personal Consulting"
     buttonLink="/services/personal-consultation/"
     features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
-    imagePosition="right"
+    imagePosition="left"
 >}}
 
 {{< /features-section >}}
