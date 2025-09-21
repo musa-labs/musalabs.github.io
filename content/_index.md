@@ -78,6 +78,18 @@ client_logos:
     imagePosition="right"
 >}}
 
+{{< feature
+    title="Password Manager"
+    description="Protect your digital identity with a secure and easy-to-use password manager. We help you generate, store, and access your passwords safely across all your devices."
+    badge="Password Manager"
+    badgeColor="#0284c7"
+    image="/images/feature-2.svg"
+    buttonText="Learn about Password Manager"
+    buttonLink="/services/password-manager/"
+    features="Secure Password Vault,Cross-Device Sync,Password Generator,Two-Factor Authentication (2FA)"
+    imagePosition="left"
+>}}
+
 <!-- {{< feature
     title="Personal Consultation"
     description=""
