@@ -32,8 +32,8 @@ client_logos:
     primary_button_text="View Pricing Plans"
     primary_button_url="/pricing"
     hero_image="/images/hero-dashboard.svg"
-    gradient-from="#16a34a"
-    gradient-to="#f3e8ff"
+    gradient-from="#6ee7b7"
+    gradient-to="#3b82f6"
     gradient-angle="180"
 >}}
 
