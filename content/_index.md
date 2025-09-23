@@ -32,7 +32,7 @@ client_logos:
     primary_button_text="View Pricing Plans"
     primary_button_url="/pricing"
     hero_image="/images/hero-dashboard.svg"
-    gradient-from="#dbeafe"
+    gradient-from="#16a34a"
     gradient-to="#f3e8ff"
     gradient-angle="180"
 >}}
@@ -71,7 +71,7 @@ client_logos:
     description="Protect your critical data with our reliable backup and recovery solutions. We ensure your business can quickly recover from data loss, system failures, or accidental deletions."
     badge="Backup Service"
     badgeColor="#f97316"
-    image="/images/feature-3.svg"
+    image="/images/backup-service.webp"
     buttonText="Learn about Backup & Recovery"
     buttonLink="/services/backup/"
     features="Automated System Backups,File & Folder Recovery,Full System Restore,Secure Offsite Storage"
