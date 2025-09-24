@@ -25,13 +25,13 @@ description: "Learn about our mission in providing robust backup and disaster re
                 name="Luke Milby"
                 title="Chief Executive Officer"
                 image="/images/company/exec-1.svg"
-                linkedin="#"
+                linkedin="https://www.linkedin.com/in/luke-milby/"
             >}}
         </div>
     </div>
 {{< /section-container >}}
 
-{{< section-container class="py-20" >}}
+<!-- {{< section-container class="py-20" >}}
     <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center mb-12">Backed by World-Class Investors</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
@@ -41,7 +41,7 @@ description: "Learn about our mission in providing robust backup and disaster re
             {{< investor-logo name="Benchmark" image="/images/company/investor-4.svg" >}}
         </div>
     </div>
-{{< /section-container >}}
+{{< /section-container >}} -->
 
 {{< section-container class="py-20 bg-gray-50" >}}
 <div class="max-w-6xl mx-auto">

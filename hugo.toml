@@ -39,7 +39,7 @@ paginatePath = "page"
     gradient_from = "#50B69B"  # Indigo-600
     gradient_to = "#2B589F"    # Purple-600
     gradient_angle = 30
-    [params.cta.primary_button]
+    [params.cta.secondary_button]
       text = "Book a Call"
       url = "https://cal.com/musalabs/musa-labs-demo"
   
@@ -171,14 +171,14 @@ paginatePath = "page"
         { name = "Backup", url = "/services/backup/" },
         { name = "Password Manager", url = "/services/password-manager/" }
       ]
-  [[menu.main]]
-    name = "Pricing"
-    url = "/pricing"
-    weight = 2
   # [[menu.main]]
-  #   name = "Blog"
-  #   url = "/blog"
-  #   weight = 3
+  #   name = "Pricing"
+  #   url = "/pricing"
+  #   weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 1
   [[menu.main]]
     name = "Company"
     weight = 4
