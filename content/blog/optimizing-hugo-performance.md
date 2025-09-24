@@ -2,6 +2,7 @@
 title: "Optimizing Hugo Performance: Speed Up Your Site"
 date: 2023-07-23
 author: "Sarah Chen"
+draft: true
 description: "Learn advanced techniques to optimize your Hugo site for better performance, faster load times, and improved user experience."
 categories: ["Performance"]
 tags: ["hugo", "optimization", "performance", "seo"]

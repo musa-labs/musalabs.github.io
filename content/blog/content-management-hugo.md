@@ -2,6 +2,7 @@
 title: "Content Management in Hugo: Best Practices"
 date: 2023-07-24
 author: "Michael Park"
+draft: true
 description: "Learn effective strategies for managing content in Hugo, from organizing your content structure to implementing taxonomies and creating dynamic content relationships."
 categories: ["Content"]
 tags: ["hugo", "content-management", "organization", "workflow"]

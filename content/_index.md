@@ -27,22 +27,22 @@ client_logos:
 ---
 
 {{< hero 
-    headline="Automate & Grow Your Business Online"
-    sub_headline="Streamline your operations with custom websites and powerful process automation. Focus on your business, we handle the rest."
+    headline="Succeed in the face of disaster"
+    sub_headline="Our solutions help you prepare for the unexpected and thrive."
     primary_button_text="View Pricing Plans"
     primary_button_url="/pricing"
-    hero_image="/images/hero-dashboard.svg"
-    gradient-from="#dbeafe"
-    gradient-to="#f3e8ff"
+    hero_image="/images/landing.webp"
+    gradient-from="#6ee7b7"
+    gradient-to="#3b82f6"
     gradient-angle="180"
 >}}
 
 {{< features-section 
-    title="Comprehensive Solutions for Online Success"
+    title="Services"
     description="We provide everything you need to establish and optimize your online presence, from websites to automation."
 >}}
 
-{{< feature
+<!-- {{< feature
     title="Essential Web Presence"
     description="Establish your online foundation with a professional website, domain and email. Perfect for businesses getting started online."
     badge="Web Presence"
@@ -52,9 +52,9 @@ client_logos:
     buttonLink="/services/web-presence/"
     features="Custom Website Creation,Reliable Hosting,Domain & Email Management,Dedicated Email Support"
     imagePosition="right"
->}}
+>}} -->
 
-{{< feature
+<!-- {{< feature
     title="Growth through Automation"
     description="Streamline your workflows and boost efficiency with website enhancements and intelligent process automation using N8N."
     badge="Automation"
@@ -64,9 +64,33 @@ client_logos:
     buttonLink="/services/growth-automation/"
     features="N8N Workflow Development,Process Automation Consultation,Dedicated Email Support"
     imagePosition="left"
+>}} -->
+
+{{< feature
+    title="Backup & Recovery"
+    description="Protect your critical data with our reliable backup and recovery solutions. We ensure your business can quickly recover from data loss, system failures, or accidental deletions."
+    badge="Backup Service"
+    badgeColor="#f97316"
+    image="/images/backup-service.webp"
+    buttonText="Learn about Backup & Recovery"
+    buttonLink="/services/backup/"
+    features="Automated System Backups,File & Folder Recovery,Full System Restore,Secure Offsite Storage"
+    imagePosition="right"
 >}}
 
 {{< feature
+    title="Password Manager"
+    description="Protect your digital identity with a secure and easy-to-use password manager. We help you generate, store, and access your passwords safely across all your devices."
+    badge="Password Manager"
+    badgeColor="#0284c7"
+    image="/images/password-manager.png"
+    buttonText="Learn about Password Manager"
+    buttonLink="/services/password-manager/"
+    features="Secure Password Vault,Cross-Device Sync,Password Generator,Two-Factor Authentication (2FA)"
+    imagePosition="left"
+>}}
+
+<!-- {{< feature
     title="Personal Consultation"
     description=""
     badge="Consulting"
@@ -75,8 +99,8 @@ client_logos:
     buttonText="Discover Personal Consulting"
     buttonLink="/services/personal-consultation/"
     features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
-    imagePosition="right"
->}}
+    imagePosition="left"
+>}} -->
 
 {{< /features-section >}}
 
