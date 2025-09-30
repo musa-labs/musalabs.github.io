@@ -88,6 +88,18 @@ client_logos:
     imagePosition="left"
 >}}
 
+{{< feature
+    title="Remote Management and Monitoring"
+    description="Keep your systems running smoothly with our proactive remote management and monitoring service. We handle the maintenance so you can focus on your business."
+    badge="RMM"
+    badgeColor="#16a34a"
+    image="/images/advanced-automation.webp"
+    buttonText="Learn about Remote Management"
+    buttonLink="/services/remote-management-and-monitoring/"
+    features="Proactive System Monitoring,Automated Patch Management,Remote Support,Performance Optimization"
+    imagePosition="right"
+>}}
+
 <!-- {{< feature
     title="Personal Consultation"
     description=""

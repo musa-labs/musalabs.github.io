@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 description: "Disaster Recovery Resources"
-layout: "simple"
+layout: "single"
 ---
 
 ## Disaster Recovery for Small Businesses

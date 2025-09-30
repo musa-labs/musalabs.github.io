@@ -164,24 +164,29 @@ paginatePath = "page"
 [menu]
   [[menu.main]]
     name = "Services"
-    weight = 1
+    weight = 3
     [menu.main.params]
       has_submenu = true
       submenu = [
         { name = "Backup", url = "/services/backup/" },
-        { name = "Password Manager", url = "/services/password-manager/" }
+        { name = "Password Manager", url = "/services/password-manager/" },
+        { name = "Remote Management and Monitoring", url = "/services/remote-management-and-monitoring/" }
       ]
-  # [[menu.main]]
-  #   name = "Pricing"
-  #   url = "/pricing"
-  #   weight = 2
+  [[menu.main]]
+    name = "Pricing"
+    url = "/pricing"
+    weight = 4
   [[menu.main]]
     name = "Blog"
     url = "/blog"
     weight = 1
   [[menu.main]]
+    name = "Resources"
+    url = "/resources"
+    weight = 2
+  [[menu.main]]
     name = "Company"
-    weight = 4
+    weight = 5
     [menu.main.params]
       has_submenu = true
       submenu = [
@@ -198,7 +203,10 @@ paginatePath = "page"
     name = "Password Manager"
     url = "/services/password-manager/"
     weight = 2
-
+  [[menu.footer_column_1]]
+    name = "Remote Management and Monitoring"
+    url = "/services/remote-management-and-monitoring/"
+    weight = 3
   # Footer Column 2 Menu
   # [[menu.footer_column_2]]
   #   name = "Blog"
