@@ -163,30 +163,30 @@ paginatePath = "page"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Services"
-    weight = 3
-    [menu.main.params]
-      has_submenu = true
-      submenu = [
-        { name = "Backup", url = "/services/backup/" },
-        { name = "Password Manager", url = "/services/password-manager/" },
-        { name = "Remote Management and Monitoring", url = "/services/remote-management-and-monitoring/" }
-      ]
-  [[menu.main]]
-    name = "Pricing"
-    url = "/pricing"
-    weight = 4
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 1
+    name = "Home"
+    url = "/"
+    weight = 0
   [[menu.main]]
     name = "Resources"
     url = "/resources"
+    weight = 1
+  [[menu.main]]
+    name = "Services"
     weight = 2
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Online Security Operations", url = "/services/online-security/" },
+        { name = "Digital Estate Planning", url = "/services/digital-estate/" },
+        { name = "Data Backup & Recovery", url = "/services/backup/" }
+      ]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 3
   [[menu.main]]
     name = "Company"
-    weight = 5
+    weight = 4
     [menu.main.params]
       has_submenu = true
       submenu = [
@@ -196,37 +196,34 @@ paginatePath = "page"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Backup"
-    url = "/services/backup/"
+    name = "Online Security Operations"
+    url = "/services/online-security/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Password Manager"
-    url = "/services/password-manager/"
+    name = "Digital Estate Planning"
+    url = "/services/digital-estate/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Remote Management and Monitoring"
-    url = "/services/remote-management-and-monitoring/"
+    name = "Data Backup & Recovery"
+    url = "/services/backup/"
     weight = 3
+
   # Footer Column 2 Menu
-  # [[menu.footer_column_2]]
-  #   name = "Blog"
-  #   url = "/blog"
-  #   weight = 1
   [[menu.footer_column_2]]
     name = "About Us"
     url = "/company"
-    weight = 2
+    weight = 1
   [[menu.footer_column_2]]
     name = "Careers"
     url = "/careers"
-    weight = 3
+    weight = 2
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
-    name = "License"
-    url = "/license"
-    weight = 1
-  [[menu.footer_column_3]]
     name = "Privacy Policy"
     url = "/privacy"
+    weight = 1
+  [[menu.footer_column_3]]
+    name = "License"
+    url = "/license"
     weight = 2

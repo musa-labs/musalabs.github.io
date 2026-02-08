@@ -1,48 +1,37 @@
 ---
-title: "Backup & Recovery"
-description: "Protect your critical data with our reliable backup and recovery solutions. We ensure your business can quickly recover from data loss, system failures, or accidental deletions."
+title: "Data Backup & Recovery"
+description: "Save your photos, tax returns, and work files from accidents, viruses, and broken computers."
 layout: "feature"
-badge: "Backup Service"
+badge: "Data Recovery"
 badgeColor: "#f97316"
 features:
-  - title: "Automated System Backups"
-    description: "Schedule regular, automated backups of your entire system, ensuring your data is consistently protected without manual intervention."
-  - title: "File & Folder Recovery"
-    description: "Quickly restore individual files or folders that have been accidentally deleted or corrupted."
-  - title: "Full System Restore"
-    description: "In case of a catastrophic system failure, we can restore your entire system to its last known good state, minimizing downtime."
-  - title: "Secure Offsite Storage"
-    description: "Your backups are stored securely in an offsite location to protect against local disasters like fire, flood, or theft."
-# demo:
-#   description: "See how our Backup & Recovery service provides peace of mind."
+  - title: "Kidnap-Proof Your Files"
+    description: "If a virus locks your files and demands money (Ransomware), we can undo it instantly. You never pay the ransom."
+  - title: "Oops-Proof Protection"
+    description: "Deleted a folder by mistake? Spilled coffee on your laptop? We can get your files back in minutes."
+  - title: "Whole Computer Restore"
+    description: "If your computer is stolen or destroys itself, we can copy your entire digital life onto a new machine."
+  - title: "Bank-Level Privacy"
+    description: "Your files are scrambled (encrypted) before they leave your computer. Only you can see them."
 ---
 
-## Protect Your Business from Data Loss
+## Your Digital Safety Net
 
-Our Backup & Recovery service provides peace of mind by safeguarding your most valuable asset: your data. 
-Whether it's a single file or an entire system, we make sure you can get back to business quickly after any data loss event.
+Hard drives break. Laptops get stolen. Viruses happen. Our Backup service makes sure that no matter what happens to the machine, your memories and hard work are safe.
 
-### Key Benefits of Backup & Recovery
+### Why Not Just Use Dropbox or iCloud?
 
-- **Business Continuity**: Minimize downtime and maintain operations even when disaster strikes.
-- **Data Security**: Your backups are encrypted and stored securely to prevent unauthorized access.
-- **Peace of Mind**: Know that your critical business data is safe and recoverable at any time.
+Cloud storage is great for sharing, but it's not a true backup. If you accidentally delete a file in Dropbox, it's gone from the cloud too. If a virus hits your computer, it spreads to the cloud.
 
-### Core Features Included
+**Our backup is different.** It keeps a history of your files. We can go back in time to yesterday, last week, or last month—before the problem happened.
 
-#### Automated Backups
-- Set-and-forget automated backups for servers, desktops, and laptops.
-- Customizable schedules to fit your business needs.
+### How It Works
 
-#### Flexible Recovery Options
-- Restore individual files, specific folders, or perform a full bare-metal system recovery.
-- Point-in-time recovery to restore data from a specific date and time.
+#### 1. We Install a Tiny App
+It runs quietly in the background and doesn't slow you down.
 
-#### Monitoring & Reporting
-- We monitor your backups to ensure they are completing successfully.
-- Receive regular reports on backup status and storage usage.
+#### 2. It Saves Everything
+Every photo, every document, every email. It happens automatically.
 
-#### Expert Support
-- Our team is here to assist with any recovery process, ensuring a smooth and efficient restoration.
-
-With our Backup & Recovery service, you can be confident that your business is protected against data loss, allowing you to focus on what matters most.
+#### 3. You Relax
+We check it every day to make sure it's working. You never have to remember to "run a backup" again.

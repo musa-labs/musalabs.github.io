@@ -18,7 +18,7 @@
                 </a>
 
                 <!-- Navigation -->
-                <div class="hidden md:flex items-center {{ with $headerConfig.menu.spacing }}{{ . }}{{ else }}space-x-8{{ end }}">
+                <div class="hidden md:flex items-center ml-auto {{ with $headerConfig.menu.spacing }}{{ . }}{{ else }}space-x-8{{ end }}">
                     {{ range .Site.Menus.main }}
                         {{ if .Params.has_submenu }}
                         <div class="relative group">

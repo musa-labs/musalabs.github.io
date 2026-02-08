@@ -11,112 +11,79 @@ client_logos:
     logo: "/images/logos/customer-4.png"
   - name: "Customer 5"
     logo: "/images/logos/customer-5.png"
-# testimonials:
-#   - name: "John Smith"
-#     title: "CTO at TechStartup"
-#     avatar: "/images/testimonial-1.svg"
-#     quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
-#   - name: "Sarah Johnson"
-#     title: "Founder at WebFlow"
-#     avatar: "/images/testimonial-1.svg"
-#     quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
-#   - name: "Michael Chen"
-#     title: "Lead Developer at CloudTech"
-#     avatar: "/images/testimonial-1.svg"
-#     quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
 ---
 
 {{< hero 
-    headline="Succeed in the face of disaster"
-    sub_headline="Our solutions help you prepare for the unexpected and thrive."
+    headline="Protect What Matters Most"
+    sub_headline="Your digital life is your real life. We secure your legacy, your data, and your identity."
     hero_image="/images/landing.webp"
     gradient-from="#6ee7b7"
     gradient-to="#3b82f6"
     gradient-angle="180"
 >}}
 
+<section class="section bg-gray-50 py-20">
+    <div class="container mx-auto px-4">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Who We Help</h2>
+            <p class="text-xl text-gray-600">Technology is complicated. We make it simple and safe for everyone.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Families</h3>
+                <p class="text-gray-600">Protect your precious photos, secure your kids' devices, and ensure your digital legacy is safe.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Solopreneurs</h3>
+                <p class="text-gray-600">You are your own IT department. Let us handle the backups and security so you can focus on work.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Small Businesses</h3>
+                <p class="text-gray-600">Enterprise-grade protection without the enterprise price tag. Compliance, security, and support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 {{< features-section 
-    title="Services"
-    description="We provide everything you need to establish and optimize your online presence, from websites to automation."
+    title="Our Core Missions"
+    description="We focus on the three pillars of digital safety."
 >}}
 
-<!-- {{< feature
-    title="Essential Web Presence"
-    description="Establish your online foundation with a professional website, domain and email. Perfect for businesses getting started online."
-    badge="Web Presence"
-    badgeColor="#2563eb"
-    image="/images/web-presence.webp"
-    buttonText="Learn about Web Presence"
-    buttonLink="/services/web-presence/"
-    features="Custom Website Creation,Reliable Hosting,Domain & Email Management,Dedicated Email Support"
-    imagePosition="right"
->}} -->
-
-<!-- {{< feature
-    title="Growth through Automation"
-    description="Streamline your workflows and boost efficiency with website enhancements and intelligent process automation using N8N."
-    badge="Automation"
-    badgeColor="#7c3aed"
-    image="/images/growth-automation.webp"
-    buttonText="Explore Automation"
-    buttonLink="/services/growth-automation/"
-    features="N8N Workflow Development,Process Automation Consultation,Dedicated Email Support"
-    imagePosition="left"
->}} -->
-
 {{< feature
-    title="Backup & Recovery"
-    description="Protect your critical data with our reliable backup and recovery solutions. We ensure your business can quickly recover from data loss, system failures, or accidental deletions."
-    badge="Backup Service"
-    badgeColor="#f97316"
-    image="/images/backup-service.webp"
-    buttonText="Learn about Backup & Recovery"
-    buttonLink="/services/backup/"
-    features="Automated System Backups,File & Folder Recovery,Full System Restore,Secure Offsite Storage"
+    title="Digital Estate Planning"
+    description="Ensure your family can access your digital life if something happens to you. Don't leave them locked out of bank accounts, photos, and email."
+    badge="Legacy Protection"
+    badgeColor="#6366f1"
+    image="/images/web-presence.webp" 
+    buttonText="Plan Your Legacy"
+    buttonLink="/services/digital-estate/"
+    features="Digital Asset Inventory,Legacy Contact Setup,Access Planning,Critical Document Digitization"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Password Manager"
-    description="Protect your digital identity with a secure and easy-to-use password manager. We help you generate, store, and access your passwords safely across all your devices."
-    badge="Password Manager"
+    title="Online Security Operations"
+    description="Stop using passwords. We move you to un-phishable hardware keys (YubiKey) and biometrics, making your accounts virtually unhackable."
+    badge="Online Security"
     badgeColor="#0284c7"
     image="/images/password-manager.png"
-    buttonText="Learn about Password Manager"
-    buttonLink="/services/password-manager/"
-    features="Secure Password Vault,Cross-Device Sync,Password Generator,Two-Factor Authentication (2FA)"
+    buttonText="Secure Your Identity"
+    buttonLink="/services/online-security/"
+    features="Hardware Key Setup,Passkey Implementation,2FA Auditing,Emergency Access Protocol"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Remote Management and Monitoring"
-    description="Keep your systems running smoothly with our proactive remote management and monitoring service. We handle the maintenance so you can focus on your business."
-    badge="RMM"
-    badgeColor="#16a34a"
-    image="/images/advanced-automation.webp"
-    buttonText="Learn about Remote Management"
-    buttonLink="/services/remote-management-and-monitoring/"
-    features="Proactive System Monitoring,Automated Patch Management,Remote Support,Performance Optimization"
+    title="Data Backup & Recovery"
+    description="Ransomware protection and accidental deletion insurance. We keep your memories and documents safe from hard drive failure and viruses."
+    badge="Data Recovery"
+    badgeColor="#f97316"
+    image="/images/backup-service.webp"
+    buttonText="Protect Your Data"
+    buttonLink="/services/backup/"
+    features="Automated System Backups,Ransomware Rescue,Full System Restore,Secure Offsite Storage"
     imagePosition="right"
 >}}
 
-<!-- {{< feature
-    title="Personal Consultation"
-    description=""
-    badge="Consulting"
-    badgeColor="#16a34a"
-    image="/images/advanced-automation.webp"
-    buttonText="Discover Personal Consulting"
-    buttonLink="/services/personal-consultation/"
-    features="Complex N8N Automations,Custom API Integrations,Workflow Optimization,Dedicated N8N Support"
-    imagePosition="left"
->}} -->
-
 {{< /features-section >}}
-
-<!-- {{< testimonials 
-    title="Trusted by Businesses of All Sizes"
-    description="See how businesses are streamlining operations and growing online with our solutions."
-    animate="true"
-    background-color="#f1f5f9"
->}} -->
