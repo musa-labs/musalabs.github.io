@@ -35,7 +35,7 @@ We provide all the core elements to get you online quickly and professionally, a
 ### Core Features Included
 
 #### Custom Website Creation
-- Tailored website design to reflect your brand and business identity
+- Tailored website design to reflect your brand and business identity.
 - Mobile-responsive design to reach customers on any device.
 - Initial content setup to get your website populated quickly.
 

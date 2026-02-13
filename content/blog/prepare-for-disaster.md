@@ -1,5 +1,5 @@
 ---
-title: "Simple tips to Preparing for a digital disaster"
+title: "Simple Tips for Preparing for a Digital Disaster"
 date: 2023-07-23
 author: "Luke Milby"
 draft: true

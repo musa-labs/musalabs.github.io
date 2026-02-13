@@ -41,7 +41,7 @@ paginatePath = "page"
     gradient_angle = 30
     [params.cta.secondary_button]
       text = "Book a Call"
-      url = "https://cal.com/musalabs/musa-labs-demo"
+      url = "https://cal.com/musa-labs/discovery"
   
   # Social Media Links
   [params.social]

@@ -1,6 +1,6 @@
 ---
 title: "Online Security Operations"
-description: "Make your accounts chemically impossible to hack. We set up special keys that stop hackers cold."
+description: "Make your accounts virtually impossible to hack. We set up special keys that stop hackers cold."
 layout: "feature"
 badge: "Security Ops"
 badgeColor: "#0284c7"
@@ -33,5 +33,5 @@ We help you choose the right keys (YubiKey or Titan) and set them up on your Goo
 #### 2. We Remove Weak Spots
 We turn off the dangerous "text message codes" that hackers can steal, and replace them with secure apps.
 
-#### 3. We Teaach You How to Use It
+#### 3. We Teach You How to Use It
 It's surprisingly simple. If you can unlock a door with a key, you can use this.

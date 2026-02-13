@@ -26,7 +26,7 @@ demo:
 
 ## Streamline and Scale with Growth Automation
 
-The Growth Automation plan is designed for businesses ready to take the next step in efficiency and online engagement.  Expand beyond a basic website and unlock the power of automation to streamline your operations and enhance customer interactions.
+The Growth Automation plan is designed for businesses ready to take the next step in efficiency and online engagement. Expand beyond a basic website and unlock the power of automation to streamline your operations and enhance customer interactions.
 
 ### Key Benefits of Growth Automation
 
