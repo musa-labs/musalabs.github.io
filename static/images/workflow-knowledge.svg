@@ -1,0 +1,35 @@
+<svg width="640" height="440" viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="440" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Top Docs Bar -->
+  <rect x="28" y="24" width="584" height="84" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="48" y="52" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="800" fill="#ea580c">INSTANT CLARITY ACROSS YOUR COMPANY DOCUMENTS</text>
+  <rect x="48" y="64" width="136" height="28" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="116" y="82" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#9a3412" text-anchor="middle">📘 SOPs &amp; Playbooks</text>
+  <rect x="198" y="64" width="150" height="28" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="273" y="82" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#9a3412" text-anchor="middle">📑 Contracts &amp; Quotes</text>
+  <rect x="362" y="64" width="150" height="28" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="437" y="82" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#9a3412" text-anchor="middle">💬 Specs &amp; Manuals</text>
+
+  <!-- Chat Interface Box -->
+  <rect x="28" y="124" width="584" height="248" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  
+  <!-- Question Bubble -->
+  <rect x="172" y="146" width="416" height="50" rx="12" fill="#f1f5f9"/>
+  <text x="192" y="166" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#64748b">TEAM MEMBER ASKS IN SLACK:</text>
+  <text x="192" y="184" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0f172a">"What is our standard warranty and rush-order policy?"</text>
+
+  <!-- AI Answer Bubble -->
+  <rect x="48" y="212" width="476" height="138" rx="12" fill="#edf7f5" stroke="#81cab7" stroke-width="1.5"/>
+  <text x="68" y="236" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#265a4c">⚡ COMPANY KNOWLEDGE AI (ANSWERED IN 0.8s):</text>
+  <text x="68" y="260" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0f172a">Commercial installs include a 3-year parts &amp; labor warranty.</text>
+  <text x="68" y="280" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0f172a">Rush orders ship within 24h and carry a 15% expedite fee.</text>
+  
+  <!-- Citation Badge -->
+  <rect x="68" y="302" width="310" height="28" rx="6" fill="#ffffff" stroke="#a5d9cc"/>
+  <text x="223" y="320" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#357e6b" text-anchor="middle">📎 Verified Source: Operations_SOP_v4.pdf (p. 12)</text>
+
+  <!-- Bottom Privacy / Hosting Strip -->
+  <rect x="28" y="386" width="584" height="32" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="320" y="406" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">🔒 100% Private on Cloudflare Vectorize &amp; R2  •  Managed Hosting or Self-Hosted</text>
+</svg>

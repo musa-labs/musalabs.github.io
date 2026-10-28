@@ -20,53 +20,48 @@ enableGitInfo = true
   category = 'categories'
   tag = 'tags'
 
-# Pagination
-paginate = 6
-paginatePath = "page"
+[pagination]
+  pagerSize = 6
+  path = "page"
 
 [params]
-  description = ""
+  description = "Flow Engineering & AI Automation: We bring clarity and flow to your business processes before putting your busywork on autopilot."
   author = "Luke Milby"
   logo = "/images/logo.png"
-  # Google Analytics ID (e.g., "G-XXXXXXXXXX")
-  # googleAnalytics = "G-XXXXXXXXXX"
   
   # Global CTA Configuration
   [params.cta]
     enable = true
-    title = "Ready to take control of your processes?"
-    description = "Join companies already using our theme to create beautiful, high-performance websites."
-    gradient_from = "#50B69B"  # Indigo-600
-    gradient_to = "#2B589F"    # Purple-600
+    title = "Ready to bring clarity and flow to your operations?"
+    description = "Book a free 30-minute Flow Session. We'll map out your biggest bottleneck and show you what to simplify and what to automate."
+    gradient_from = "#50B69B"
+    gradient_to = "#2B589F"
     gradient_angle = 30
     [params.cta.secondary_button]
-      text = "Book a Call"
+      text = "Book a Free Discovery Call"
       url = "https://cal.com/musa-labs/discovery"
   
   # Social Media Links
   [params.social]
     github = "https://github.com/Musa-Labs"
+    linkedin = "https://www.linkedin.com/in/luke-milby/"
   
   # Footer Configuration
   [params.footer]
-    column_1_title = "Services"
-    column_2_title = "COMPANY"
-    column_3_title = "LEGAL"
+    column_1_title = "Solutions"
+    column_2_title = "Company"
+    column_3_title = "Legal"
   
   [params.header]
-    # Header background and border styles (optional)
     background = "bg-white/80 backdrop-blur-sm"
     border = "border-b border-gray-100"
     
-    # Logo configuration
     [params.header.logo]
       src = "/images/logo.png"
     
-    # Menu configuration
     [params.header.menu]
       spacing = "space-x-8"
       
-      # Dropdown menu configuration
       [params.header.menu.dropdown]
         width = "w-72"
         container_padding = "py-6"
@@ -79,58 +74,10 @@ paginatePath = "page"
         hover_background = "hover:bg-gray-50"
         text_size = "text-sm"
     
-    # Button configuration
     [params.header.buttons]
-      # Sign In button
-      # [params.header.buttons.signIn]
-      #   text = "Sign in"
-      #   url = "https://market.musalabs.io/user/login"
-      
-      # # Get Started button
-      # [params.header.buttons.getStarted]
-      #   text = "Get Started"
-      #   url = "/get-started"
-
-  # Blog configuration
-  # Coming back to this. IDK if its really going to matter
-  # [params.blog]
-  #   enable = true
-  #   title = "Latest Articles"
-  #   subtitle = "Learn more about web development and best practices"
-    
-  #   # Blog CTA configuration
-  #   [params.blog.cta]
-  #     enable = true  # Enable/disable CTA in blog posts
-    
-  #   # Sidebar configuration
-  #   [params.blog.sidebar]
-  #     # Recent articles section
-  #     [params.blog.sidebar.recent]
-  #       enable = true
-  #       title = "Recent Articles"
-  #       count = 5
-      
-  #     # Categories section
-  #     [params.blog.sidebar.categories]
-  #       enable = true
-  #       title = "Categories"
-      
-  #     # Tags section
-  #     [params.blog.sidebar.tags]
-  #       enable = true
-  #       title = "Popular Tags"
-  #       count = 20
-
-  #     # Subscribe form section
-  #     [params.blog.sidebar.subscribe]
-  #       enable = true
-  #       title = "Subscribe to Newsletter"
-  #       description = "Get the latest posts delivered right to your inbox"
-  #       action = "https://formspree.io/f/your-form-id"
-  #       emailName = "email"
-  #       buttonText = "Subscribe"
-  #       placeholder = "Enter your email"
-  #       disclaimer = "We respect your privacy. Unsubscribe at any time."
+      [params.header.buttons.getStarted]
+        text = "Book a Call"
+        url = "https://cal.com/musa-labs/discovery"
 
 [module]
   [module.hugoVersion]
@@ -167,63 +114,54 @@ paginatePath = "page"
     url = "/"
     weight = 0
   [[menu.main]]
-    name = "Resources"
-    url = "/resources"
+    name = "Solutions"
     weight = 1
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "AI Assistants & Workflows", url = "/services/ai-agents-workflows/" },
+        { name = "Automated Data & App Sync", url = "/services/data-pipelines/" },
+        { name = "Company Knowledge AI", url = "/services/edge-rag/" }
+      ]
   [[menu.main]]
-    name = "Services"
+    name = "How It Works"
+    url = "/how-it-works/"
     weight = 2
-    [menu.main.params]
-      has_submenu = true
-      submenu = [
-        { name = "Online Security Operations", url = "/services/online-security/" },
-        { name = "Digital Estate Planning", url = "/services/digital-estate/" },
-        { name = "Data Backup & Recovery", url = "/services/backup/" }
-      ]
   [[menu.main]]
-    name = "Blog"
-    url = "/blog"
+    name = "About"
+    url = "/company/"
     weight = 3
-  [[menu.main]]
-    name = "Company"
-    weight = 4
-    [menu.main.params]
-      has_submenu = true
-      submenu = [
-        { name = "About Us", url = "/company/" },
-        { name = "Careers", url = "/careers/" }
-      ]
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Online Security Operations"
-    url = "/services/online-security/"
+    name = "AI Assistants & Workflows"
+    url = "/services/ai-agents-workflows/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Digital Estate Planning"
-    url = "/services/digital-estate/"
+    name = "Automated Data & App Sync"
+    url = "/services/data-pipelines/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Data Backup & Recovery"
-    url = "/services/backup/"
+    name = "Company Knowledge AI"
+    url = "/services/edge-rag/"
     weight = 3
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]
-    name = "About Us"
-    url = "/company"
+    name = "How It Works"
+    url = "/how-it-works/"
     weight = 1
   [[menu.footer_column_2]]
-    name = "Careers"
-    url = "/careers"
+    name = "About Us"
+    url = "/company/"
     weight = 2
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
     name = "Privacy Policy"
-    url = "/privacy"
+    url = "/privacy/"
     weight = 1
   [[menu.footer_column_3]]
     name = "License"
-    url = "/license"
+    url = "/license/"
     weight = 2

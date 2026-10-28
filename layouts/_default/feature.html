@@ -34,7 +34,7 @@
         <!-- Key Features Grid -->
         {{ if .Params.features }}
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <div class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
+            <div class="grid max-w-xl mx-auto grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
                 {{ range .Params.features }}
                 <div class="flex flex-col bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-8">
                     <dt class="text-lg font-semibold leading-7 text-gray-900">
@@ -62,8 +62,8 @@
                 <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Params.demo.description }}</p>
             </div>
             <div class="mt-16 flex justify-center">
-                <div class="relative rounded-xl bg-white p-8 shadow-2xl ring-1 ring-gray-200">
-                    <img src="{{ .Params.demo.image }}" alt="Demo" class="rounded-lg">
+                <div class="relative rounded-xl bg-white p-8 shadow-2xl ring-1 ring-gray-200 flex justify-center">
+                    <img src="{{ .Params.demo.image }}" alt="Demo" class="rounded-lg mx-auto">
                 </div>
             </div>
         </div>

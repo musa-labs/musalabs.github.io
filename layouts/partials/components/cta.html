@@ -1,26 +1,39 @@
 {{ if .Site.Params.cta.enable }}
-<section class="cta-section">
-    <div class="container">
-        {{ $angle := .Site.Params.cta.gradient_angle | default 45 }}
-        {{ $from := .Site.Params.cta.gradient_from }}
-        {{ $to := .Site.Params.cta.gradient_to }}
-        <div class="relative rounded-lg overflow-hidden bg-primary-600 cta-gradient"
-             style="--gradient-angle: {{ $angle }}; --gradient-from: {{ $from }}; --gradient-to: {{ $to }}">
-            <div class="relative text-center max-w-3xl mx-auto px-6 py-10">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">{{ .Site.Params.cta.title }}</h2>
-                <p class="text-xl text-primary-100 mb-8">{{ .Site.Params.cta.description }}</p>
-                <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    {{ with .Site.Params.cta.primary_button }}
-                        <a href="{{ .url }}" class="btn bg-white text-primary-600 hover:bg-gray-100">
-                            {{ .text }}
-                        </a>
-                    {{ end }}
-                    {{ with .Site.Params.cta.secondary_button }}
-                        <a href="{{ .url }}" class="btn border-2 border-white text-white hover:bg-primary-700">
-                            {{ .text }}
-                        </a>
-                    {{ end }}
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+        <div class="rounded-3xl bg-gradient-to-br from-gray-900 to-slate-800 text-white p-8 md:p-14 shadow-xl">
+            <div class="max-w-2xl">
+                <span class="inline-block rounded-full bg-primary-500/20 border border-primary-400/30 px-4 py-1 text-xs font-bold uppercase tracking-wider text-primary-300 mb-6">
+                    Low-Risk Starting Point
+                </span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Start With a Free 30-Minute Flow Audit</h2>
+                <p class="text-lg text-gray-300 mb-8">
+                    Not sure what to automate first? Pick your single most annoying weekly bottleneck and bring it to a 30-minute call. No hard sales pitch—here is what you walk away with:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <div class="bg-white/10 rounded-xl p-5 border border-white/10">
+                    <div class="font-bold text-white mb-2">1. Visual Flow Map</div>
+                    <p class="text-sm text-gray-300">We trace your current process live and pinpoint exactly where time and money are leaking.</p>
                 </div>
+                <div class="bg-white/10 rounded-xl p-5 border border-white/10">
+                    <div class="font-bold text-white mb-2">2. Simplification First</div>
+                    <p class="text-sm text-gray-300">We tell you which steps to delete or simplify immediately—even before writing any code.</p>
+                </div>
+                <div class="bg-white/10 rounded-xl p-5 border border-white/10">
+                    <div class="font-bold text-white mb-2">3. Fixed-Price Roadmap</div>
+                    <p class="text-sm text-gray-300">If it makes sense to automate, we give you a clear, fixed-price quote for both Managed and Self-Hosted options.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+                {{ with .Site.Params.cta.secondary_button }}
+                <a href="{{ .url }}" class="btn bg-primary-500 hover:bg-primary-600 text-white font-bold px-8 py-4 rounded-xl text-center w-full sm:w-auto">
+                    Book Your Free 30-Min Flow Audit →
+                </a>
+                {{ end }}
+                <span class="text-sm text-gray-400">Free 30-minute session • Keep the flow map either way</span>
             </div>
         </div>
     </div>

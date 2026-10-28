@@ -38,10 +38,10 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="relative">
+            <div class="relative flex justify-center">
                 {{ if $hero_image }}
-                <div class="relative z-10">
-                    <img src="{{ $hero_image | relURL }}" alt="Hero Image" class="rounded-xl shadow-elevation">
+                <div class="relative z-10 w-full flex justify-center">
+                    <img src="{{ $hero_image | relURL }}" alt="Hero Image" class="rounded-xl shadow-elevation mx-auto w-full max-w-2xl">
                 </div>
                 {{ end }}
                 <!-- Background decoration -->

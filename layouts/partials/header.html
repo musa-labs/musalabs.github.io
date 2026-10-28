@@ -44,15 +44,15 @@
 
                 <!-- CTA Buttons -->
                 {{ if not $headerConfig.hideButtons }}
-                <div class="hidden md:flex items-center space-x-4">
+                <div class="hidden md:flex items-center space-x-4 ml-8">
                     {{ with $headerConfig.buttons.signIn }}
-                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600{{ end }}">
+                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-bold transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600{{ end }}">
                         {{ .text | default "Sign in" }}
                     </a>
                     {{ end }}
                     
                     {{ with $headerConfig.buttons.getStarted }}
-                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out bg-primary-600 text-white hover:bg-primary-700 hover:scale-105{{ end }}">
+                    <a href="{{ .url | default "#" }}" class="{{ with .class }}{{ . }}{{ else }}inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-bold transition duration-200 ease-in-out bg-primary-600 text-white hover:bg-primary-700 shadow-sm{{ end }}">
                         {{ .text | default "Get Started" }}
                     </a>
                     {{ end }}
