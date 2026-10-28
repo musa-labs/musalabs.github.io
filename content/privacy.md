@@ -1,88 +1,58 @@
 ---
 title: "Privacy Policy"
+description: "How Musa Labs handles your data, protects client workflows, and ensures strict AI privacy."
 layout: "simple"
 ---
 
-## Introduction
+## Overview
 
-At Musa Labs, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.
-
----
-
-## Information We Collect
-
-### Personal Information
-
-* **Name and email address**
-* **Billing information**
-* **Usage data and analytics**
-* **Communication preferences**
-
-### Automatically Collected Information
-
-* **IP addresses**
-* **Browser type**
-* **Device information**
-* **Cookies and tracking technologies**
+At **Musa Labs** (`musalabs.io`), security and data privacy are foundational to how we engineer business systems. This Privacy Policy explains what information we collect when you visit our website, schedule a call, or engage us for Flow Engineering and AI Automation services—and how we keep your business data isolated and protected.
 
 ---
 
-## How We Use Your Information
+## 1. Website & Scheduling Information
 
-We use the collected information for:
+When you browse our website or book a discovery session, we collect only the minimum information required to communicate with you:
 
-* **Service Delivery**  
-  Providing and maintaining our service
-* **Updates**  
-  Notifying you about changes to our service
-* **Support**  
-  Providing customer support
-* **Transactions**  
-  Processing your transactions
-* **Analytics**  
-  Analyzing usage patterns to improve our service
+- **Contact & Discovery Details**: Your name, email address, company name, and any workflow notes you provide when scheduling a call via Cal.com or contacting us directly.
+- **Basic Technical Logs**: Standard web server and edge logs (such as browser type, referring page, and anonymized request metrics) processed through Cloudflare and GitHub Pages to keep our site fast and secure.
+
+We do **not** sell, rent, or broker your personal or business contact information to third parties or data brokers.
 
 ---
 
-## Data Security
+## 2. Client Data, AI Privacy & Workflow Isolation
 
-We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.
+When you engage Musa Labs to build or manage custom automations, data pipelines, or Company Knowledge AI systems, strict data boundaries apply:
 
----
-
-## Third-Party Services
-
-We may employ third-party companies and individuals to:
-
-* Facilitate our service
-* Provide service-related services
-* Assist in analyzing service usage
+- **Zero Public AI Training**: Your company documents, SOPs, customer records, and workflow payloads are **never** used to train public AI models. When connecting to AI providers (such as Cloudflare Workers AI, Anthropic, or OpenAI), we exclusively use commercial API endpoints where data training is disabled by policy.
+- **Isolated Infrastructure**: Every client system is isolated. Whether we host and manage your workflows on our enterprise Cloudflare infrastructure or deploy them directly into your own Cloudflare account, your databases (D1), file storage (R2), and vector indexes (Vectorize) are strictly segregated to your business.
+- **Least-Privilege Access**: We only request API keys or software permissions necessary to execute and monitor the specific workflows you authorize.
 
 ---
 
-## Your Rights
+## 3. Third-Party Infrastructure & Subprocessors
 
-You have the right to:
+To deliver high-reliability automations, we rely on industry-leading infrastructure providers:
 
-* **Access** your personal data
-* **Correct** inaccurate data
-* **Request deletion** of your data
-* **Object** to data processing
-* **Export** your data
+- **Cloudflare, Inc.**: Serverless compute (Workers, Workflows, Durable Objects, Queues), storage (R2, D1, Vectorize), and AI Gateway routing.
+- **Cal.com**: Appointment scheduling for discovery calls and flow audits.
+- **Authorized Client Integrations**: Any third-party software (such as your CRM, Slack, Microsoft Teams, Stripe, or QuickBooks) that you explicitly instruct us to connect to your workflows.
 
 ---
 
-## Changes to This Policy
+## 4. Data Retention & Your Rights
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+- **Website Inquiries**: You may request that we update or delete your contact information at any time.
+- **Client Workflows**: Under both our **Fully Managed** and **Self-Hosted** models, your business retains 100% ownership of its underlying business data and documents. Upon termination of a managed hosting engagement, we can either transfer the workflow and data to your own account or permanently purge all client data and credentials from our managed environment.
 
 ---
 
-## Contact Us
+## 5. Contact Us
 
-If you have questions about this Privacy Policy, please contact us at:
+If you have any questions about this Privacy Policy, our security practices, or your data, please reach out directly:
 
-* **Email:** privacy@musalabs.com
-* **Address:** 123 Tech Street, San Francisco, CA 94105
+- **Web**: [musalabs.io](https://musalabs.io)
+- **Schedule / Contact**: [cal.com/musa-labs/discovery](https://cal.com/musa-labs/discovery)
 
-*Last Updated: January 2024*
+*Last Updated: October 2026*

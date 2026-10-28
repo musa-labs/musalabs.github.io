@@ -162,6 +162,6 @@ enableGitInfo = true
     url = "/privacy/"
     weight = 1
   [[menu.footer_column_3]]
-    name = "License"
+    name = "Terms & Licensing"
     url = "/license/"
     weight = 2
